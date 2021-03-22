@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+  font-family: "Proxima-C";
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: "Gill";
+  src: url(../css/fonts/GIL_____.TTF);
+}
+nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-black.png);
+}
+nav .links {
+  width: 400px;
+  height: 42px;
+  align-self: center;
+  margin-left: 25px;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 980px) {
+  .links {
+    width: 400px;
+  }
+}
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+footer p {
+  padding-left: 520px;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+.logo-footer {
+  max-width: 136px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.social img {
+  position: relative;
+  left: 1000px;
+  bottom: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+}
+.specials {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+}
+.specials h1 {
+  font-size: 30px;
+  font-family: "Proxima";
+  text-decoration: underline;
+}
+.specials .special-offers {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+  padding-left: 0px;
+}
+.specials .special-offers .special-image {
+  width: 400px;
+  height: 287px;
+}
+.specials .special-offers h2 {
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Proxima";
+  text-decoration: underline;
+}
+.specials .special-offers .special-one {
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.specials .special-offers .special-two {
+  background-image: url(../images/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.specials .special-offers .quote {
+  position: relative;
+  min-height: 50px;
+  width: 50%;
+  padding-left: 25px;
+  font-family: "Gill";
+  font-size: 16px;
+}
+.specials .special-offers .percentage {
+  position: relative;
+  left: 280px;
+  top: 30px;
+  color: #79addc;
+  font-family: Proxima;
+  font-size: 20px;
+  color: #FF7D38;
+}
+.specials .special-offers .promo-button {
+  padding: 10px 24px;
+  margin-left: 20px;
+  background-color: #79addc;
+  border-radius: 24px;
+  color: #ffffff;
+  border: 2px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+.blog {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.blog h1 {
+  font-family: "Proxima";
+  font-size: 30px;
+  text-decoration: underline;
+}
+.blog .blog-post {
+  max-width: 980px;
+  display: block;
+  margin-bottom: 38px;
+  padding-left: 0px;
+  margin-left: 50px;
+}
+.blog .blog-post .blog-image {
+  max-width: 900px;
+  height: 259px;
+  background-color: palevioletred;
+}
+.blog .blog-post .blog-image {
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blog-post h1 {
+  font-size: 15px;
+  font-family: "Gill";
+}
+.blog .blog-post .blog-quote p {
+  font-size: 13px;
+  font-family: "Gill";
+  width: 50%;
+  color: #79addc;
+}
+
+.contact {
+  max-width: 980px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.contact h1 {
+  font-size: 30px;
+  font-family: "Proxima";
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form {
+  width: 529px;
+  height: 522px;
+  left: 500px;
+  bottom: 600px;
+  position: relative;
+}
+
+.promo-button {
+  padding: 10px 24px;
+  background-color: #79addc;
+  border-radius: 0px;
+  color: #ffffff;
+  border: 2px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+.map {
+  max-width: 400px;
+  height: 442px;
+}
+
+.map-one {
+  background-image: url(../images/map.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  width: 21%;
+  font-size: 18px;
+  font-family: "Gill";
+}
+
+p {
+  position: relative;
+  top: 15px;
+  font-size: 18px;
+  font-family: "Gill";
+}
+
+@media (max-width: 850px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .map {
+    padding: 20px 40px;
+  }
+}
